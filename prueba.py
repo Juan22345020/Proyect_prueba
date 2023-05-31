@@ -31,7 +31,7 @@ frame_superior=Frame(ventana_principal)
 frame_superior.config(bg="blue", width=1250, height=170)
 frame_superior.place(x=0, y=0)
 
-imagen_1 = PhotoImage(file="Superior.png")
+imagen_1 = PhotoImage(file="Sup.png")
 lb_imagen_1= Label(frame_superior, image=imagen_1)
 lb_imagen_1.place(x=0, y=0)
 
@@ -39,6 +39,11 @@ lb_imagen_1.place(x=0, y=0)
 frame_izquierdo=Frame(ventana_principal)
 frame_izquierdo.config(bg="gray", width=625, height=600)
 frame_izquierdo.place(x=0, y=170)
+
+imagen_i = PhotoImage(file="comparar.png")
+lb_imagen_i= Label(frame_izquierdo, image=imagen_i)
+lb_imagen_i.place(x=0, y=0)
+
 
 frame_derecho=Frame(ventana_principal)
 frame_derecho.config(bg="red", width=625, height=600)
